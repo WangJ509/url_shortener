@@ -6,6 +6,12 @@ This project implements URL shorten API using gorm and gin with unit testing.
 ### Create the table
 `mysql -u {user_name} -p {database_name} < create_table_shorten_urls.sql`
 
+### Environment varibales
+- `db_user`: db user name
+- `db_pass`: db password
+- `db_url`: db url
+- `db_name`: database name
+
 ### Run the API server
 - `go mod tidy`
 - `go run .`
